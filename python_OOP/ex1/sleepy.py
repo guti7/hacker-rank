@@ -4,3 +4,7 @@ import sys
 # Write a function named sleep that takes a name variable as an argument.
 # This function should print "<name> sleeps for 8 hours" each time it's called.
 def sleep(name):
+    print name, "sleeps for 8 hours"
+
+if __name__ == "__main__":
+    sleep(sys.argv[1])

@@ -1,3 +1,6 @@
+import sys
+import sleepy
+
 # This code tests the sleep function
 def test():
     def getline():
@@ -10,7 +13,7 @@ def test():
         # Get the animal's name
         name = getline()
         # Test the sleep function
-        sleep(name)
+        sleepy.sleep(name)
 
 
 if __name__ == "__main__":
