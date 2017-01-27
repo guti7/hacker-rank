@@ -2,6 +2,7 @@
 
 import sys
 
+
 # Create a class called Tiger.
 # It should contain two instance variables: name and favoriteFood
 # It should contain eat and sleep instance methods
