@@ -4,9 +4,9 @@ for _ in range(t):
     first = ""
     second = ""
 
-    for i, c in enumerate(line):
-        if (i & 1) == 0:
-            first += c
+    for index, char in enumerate(line):
+        if (index & 1) == 0:
+            first += char
         else:
-            second += c
+            second += char
     print first, second
