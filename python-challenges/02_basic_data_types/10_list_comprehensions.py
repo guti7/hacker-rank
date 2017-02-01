@@ -8,7 +8,10 @@ import sys
 
 def calculate_cuboid_coordinates(x, y, z, n):
     # how to break up list comprehensions?
-    return [[a, b, c] for a in range(x + 1) for b in range(y + 1) for c in range(z + 1) if a + b + c != n]
+    return [[a, b, c] for a in range(x + 1) for b in range(y + 1)
+            for c in range(z + 1) if a + b + c != n]
+            # use \ to break up long lines to multiple lines
+            # or just return if within brackets
 
 if __name__ == '__main__':
     # x = int(raw_input().strip())  # maybe use loop?
