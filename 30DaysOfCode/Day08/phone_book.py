@@ -14,7 +14,7 @@ n = int(raw_input().strip())
 
 phone_book = {}
 
-for i in range(0, n):  # range max in not inclusive
+for i in range(n):  # range max in not inclusive
     info_array = list(raw_input().strip().split())
     # Build dictionary structure
     phone_book[info_array[0]] = info_array[1]
